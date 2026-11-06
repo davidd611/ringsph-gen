@@ -58,7 +58,7 @@
 
     Plugin.register(ID, {
         title: 'Generador de esfera por anillos (ringsph-gen)',
-        author: 'Generado con asistencia de IA',
+        author: 'davidd611',
         description: 'Genera una esfera de anillos de cubos/paneles. Todos los elementos quedan a la misma distancia del pivote, rotan lo justo para ser tangentes, y se solapan entre sí para no dejar huecos.',
         icon: 'bubble_chart',
         version: '1.1.0',
@@ -95,7 +95,7 @@
                 radio:    { label: 'Radio de la esfera (distancia al pivote)', type: 'number', value: 8, min: 0.5, step: 0.5 },
                 ancho:    { label: 'Ancho del cubo/panel (eje local X)', type: 'number', value: 1, min: 0.01, step: 0.5 },
                 alto:     { label: 'Alto del cubo/panel (eje local Y)', type: 'number', value: 1, min: 0.01, step: 0.5 },
-                profundo: { label: 'Profundidad (eje local Z) — 0.1 a 0.25 para paneles', type: 'number', value: 1, min: 0.01, step: 0.25 },
+                profundo: { label: 'Profundidad (eje local Z) — 0 a 0.25 para paneles', type: 'number', value: 1, min: 0.01, step: 0.25 },
                 px:       { label: 'Pivote de la esfera — X', type: 'number', value: px, step: 0.5 },
                 py:       { label: 'Pivote de la esfera — Y', type: 'number', value: py, step: 0.5 },
                 pz:       { label: 'Pivote de la esfera — Z', type: 'number', value: pz, step: 0.5 },
